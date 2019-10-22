@@ -54,9 +54,7 @@ public class FaceActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),
                         "Authentication success", Toast.LENGTH_SHORT)
                         .show();
-                // User has verified the signature, cipher, or message
-                // authentication code (MAC) associated with the crypto object,
-                // so you can use it in your app's crypto-driven workflows.
+
             }
 
             @Override
@@ -68,7 +66,7 @@ public class FaceActivity extends AppCompatActivity {
             }
         });
 
-        // Displays the "log in" prompt.
+
         biometricPrompt.authenticate(promptInfo);
 
 
