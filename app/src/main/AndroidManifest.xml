@@ -18,6 +18,12 @@
         <activity
             android:name=".FingerPrintActivity"
             android:label="@string/activity_finger_print"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".FaceDetectionActivity"
+            android:label="@string/activity_finger_print"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
