@@ -52,7 +52,7 @@ public class FaceActivity extends AppCompatActivity {
                 BiometricPrompt.CryptoObject authenticatedCryptoObject =
                         result.getCryptoObject();
                 Toast.makeText(getApplicationContext(),
-                        "Authentication success: " + result.getCryptoObject(), Toast.LENGTH_SHORT)
+                        "Authentication success", Toast.LENGTH_SHORT)
                         .show();
                 // User has verified the signature, cipher, or message
                 // authentication code (MAC) associated with the crypto object,
